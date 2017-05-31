@@ -2,4 +2,6 @@ node_modules
 .idea
 __snapshots__
 
+npm-debug.log
+
 example/build
