@@ -16,7 +16,6 @@
     "url": "https://github.com/JoaoSouMoreira/jest-aliasify-resolver/issues"
   },
   "homepage": "https://github.com/JoaoSouMoreira/jest-aliasify-resolver#readme",
-  "aliasify": "./example/aliasifyConfig.js",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -34,7 +33,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-copy": "^1.0.0",
+    "gulp-jest": "^1.0.0",
     "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
     "react-test-renderer": "^15.5.4",
     "vinyl-source-stream": "^1.1.0"
   }
