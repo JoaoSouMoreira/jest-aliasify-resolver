@@ -7,7 +7,7 @@ Install with `npm install --save-dev jest-aliasify-resolver`
 
 # Usage
 After adding your aliases to either your package.json or to an `aliasify` config file, change the following field on your `jest` config file to
-```json
+```
 {
     ...
     "resolver": "jest-aliasify-resolver",
