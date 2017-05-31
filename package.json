@@ -11,11 +11,12 @@
     "url": "git+https://github.com/JoaoSouMoreira/jest-aliasify-resolver.git"
   },
   "author": "Joao Moreira",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JoaoSouMoreira/jest-aliasify-resolver/issues"
   },
   "homepage": "https://github.com/JoaoSouMoreira/jest-aliasify-resolver#readme",
+  "aliasify": "./example/aliasifyConfig.js",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
