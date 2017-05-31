@@ -18,25 +18,25 @@
   "homepage": "https://github.com/JoaoSouMoreira/jest-aliasify-resolver#readme",
   "aliasify": "./example/aliasifyConfig.js",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "aliasify": "^2.1.0",
+    "browserify": "^14.4.0",
+    "browserify-transform-tools": "^1.7.0",
     "resolve": "^1.3.3"
   },
   "devDependencies": {
-    "aliasify": "^2.1.0",
     "babel-core": "^6.24.1",
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
-    "browserify": "^14.4.0",
-    "browserify-transform-tools": "^1.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-copy": "^1.0.0",
     "gulp-jest": "^1.0.0",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
     "vinyl-source-stream": "^1.1.0"
   }
