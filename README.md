@@ -13,9 +13,18 @@ After adding your aliases to either your package.json or to an `aliasify` config
         "resolver": "jest-aliasify-resolver",
         ...
     }
+    
+Or if you're using `gulp-jest`, don't forget to pass the resolver into the config object
+
+    ...
+    return gulp.src(<path>).pipe(jest({
+        config: {
+            ...
+            resolver: "jest-aliasify-resolver",
+            ...
+        }
+    }));
+    ...
 
 
 And _voilá_! Now your custom imports should resolve according to the aliases you have set up.
-
-#### Note:
-This plugin will not work if you are passing aliasify config to Jest through a gulp task. It should be resolved once `gulp-jest` is updated to use `Jest 20.0.0`.
