@@ -13,12 +13,12 @@ gulp.task('js', function() {
 });
 
 gulp.task('jest', function() {
-    return gulp.src('test')
+    return gulp.src('.')
         .pipe(jest({
             config: {
-                "verbose": true,
-                "resolver": "jest-aliasify-resolver",
-                "roots": ["test"]
+                verbose: true,
+                resolver: "jest-aliasify-resolver",
+                roots: ["test"]
             }
         }));
 });
